@@ -1,0 +1,4 @@
+ name          = Tsflea Admin
+ description   = Admin theme by tsflea.com
+ core          = 7.x
+ base  theme   = adminimal   
