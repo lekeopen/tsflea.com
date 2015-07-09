@@ -1,0 +1,5 @@
+name            = Tsflea Navbar
+description     = Custom navbar by tsflea.com
+core            = 7.x
+dependencies[]  = navbar
+package         = Administration

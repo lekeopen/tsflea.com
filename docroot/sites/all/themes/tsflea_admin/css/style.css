@@ -17,11 +17,11 @@
   src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(http://fontstatic.useso.com/s/opensans/v10/MTP_ySUJH_bn48VBG8sNSha1RVmPjeKy21_GQJaLlJI.woff) format('woff');
 }
 
-body.adminimal-theme *::-moz-focus-inner {
+body.tsflea_admin *::-moz-focus-inner {
   border: 0;
 }
 
-body.adminimal-theme * {
+body.tsflea_admin * {
   -moz-box-sizing: inherit;
   -webkit-box-sizing: inherit;
   box-sizing: inherit;
@@ -285,8 +285,9 @@ pre {
  * Page title.
  */
 #page-title {
-  background: #333;
+  background: #e4d1d1;
   padding-top: 20px;
+  height: 60px;
 }
 
 #branding h1.page-title {
@@ -423,12 +424,12 @@ ul.secondary li a:hover {
 	box-shadow: none;
 }
 
-body.adminimal-theme ul.secondary li a, body.adminimal-theme ul.secondary li a:hover, body.adminimal-theme ul.secondary li.active a, body.adminimal-theme ul.secondary li.active a.active {
+body.tsflea_admin ul.secondary li a, body.tsflea_admin ul.secondary li a:hover, body.tsflea_admin ul.secondary li.active a, body.tsflea_admin ul.secondary li.active a.active {
   border-radius: 0;
   padding: 10px 10px;
 }
 
-body.adminimal-theme ul.secondary li.active a, ul.secondary li.active a.active {
+body.tsflea_admin ul.secondary li.active a, ul.secondary li.active a.active {
   color: #000;
   background-color: transparent;
   box-shadow: none;
@@ -659,12 +660,12 @@ table.system-status-report tr.warning {
   background-color: #fffbe2;
 }
 
-.adminimal-theme table tr.error {
+.tsflea_admin table tr.error {
   color: #C70000;
   background-color: #FFDDDD;
 }
 
-.adminimal-theme table tr.error td {
+.tsflea_admin table tr.error td {
   color: #C70000;
 }
 
@@ -1358,24 +1359,24 @@ div.warning {
 }
 
 /* Disable overlay message */
-body.adminimal-theme #overlay-disable-message {
+body.tsflea_admin #overlay-disable-message {
   background-color: #addafc;
 }
 
-body.adminimal-theme #overlay-disable-message a,#overlay-disable-message a:visited {
+body.tsflea_admin #overlay-disable-message a,#overlay-disable-message a:visited {
   color: #000;
 }
 
-body.adminimal-theme #overlay-disable-message a:focus,#overlay-disable-message a:active {
+body.tsflea_admin #overlay-disable-message a:focus,#overlay-disable-message a:active {
   outline: none;
   text-decoration: underline;
 }
 
-body.adminimal-theme .overlay-disable-message-focused a {
+body.tsflea_admin .overlay-disable-message-focused a {
   padding: 0.4em 0.6em;
 }
 
-body.adminimal-theme .overlay-disable-message-focused #overlay-dismiss-message {
+body.tsflea_admin .overlay-disable-message-focused #overlay-dismiss-message {
   background-color: #59a0d8;
   color: #fff;
   -moz-border-radius: 8px;
@@ -1383,23 +1384,23 @@ body.adminimal-theme .overlay-disable-message-focused #overlay-dismiss-message {
   border-radius: 8px;
 }
 
-body.adminimal-theme #ctools-export-ui-list-form.form-submit {
+body.tsflea_admin #ctools-export-ui-list-form.form-submit {
   float: left;
   margin-top: 36px;
 }
 
-body.adminimal-theme a.imce-filefield-opener {
+body.tsflea_admin a.imce-filefield-opener {
   margin: 5px 0;
 }
 
-body.adminimal-theme div.autocomplete-deluxe-multiple {
+body.tsflea_admin div.autocomplete-deluxe-multiple {
   background: none repeat scroll 0 0 #FFFFFF;
   padding: 0;
   width: auto;
   min-width: 500px;
 }
 
-body.adminimal-theme .autocomplete-deluxe-item {
+body.tsflea_admin .autocomplete-deluxe-item {
   background: none repeat scroll 0 0 #555555;
   border: 0 none;
   border-radius: 0 0 0 0;
@@ -1410,7 +1411,7 @@ body.adminimal-theme .autocomplete-deluxe-item {
   padding: 7px 20px 7px 10px;
 }
 
-body.adminimal-theme .autocomplete-deluxe-item-delete {
+body.tsflea_admin .autocomplete-deluxe-item-delete {
   background: url("../images/ui-icons-ffffff-256x240.png") no-repeat scroll -100px -130px transparent;
   display: block;
   font-size: 1px;
@@ -1421,7 +1422,7 @@ body.adminimal-theme .autocomplete-deluxe-item-delete {
   width: 12px;
 }
 
-body.adminimal-theme ul.ui-autocomplete {
+body.tsflea_admin ul.ui-autocomplete {
   max-height: 300px;
   max-width: 300px;
   overflow-x: hidden;
@@ -1432,11 +1433,11 @@ body.adminimal-theme ul.ui-autocomplete {
   margin-left: -2px;
 }
 
-body.adminimal-theme div.autocomplete-deluxe-container input.autocomplete-deluxe-form-single {
+body.tsflea_admin div.autocomplete-deluxe-container input.autocomplete-deluxe-form-single {
 	background: #fff;
 }
 
-body.adminimal-theme .ui-autocomplete .ui-menu-item a {
+body.tsflea_admin .ui-autocomplete .ui-menu-item a {
   display: block;
   line-height: 1.5;
   padding: 5px 10px;
@@ -1445,25 +1446,25 @@ body.adminimal-theme .ui-autocomplete .ui-menu-item a {
   font-size: 12px;
 }
 
-body.adminimal-theme ul.ui-autocomplete li.ui-menu-item .ui-state-focus {
+body.tsflea_admin ul.ui-autocomplete li.ui-menu-item .ui-state-focus {
 	background: inherit;
 	color: inherit;
 }
 
-body.adminimal-theme .ui-menu .ui-menu-item a.ui-state-focus {
+body.tsflea_admin .ui-menu .ui-menu-item a.ui-state-focus {
 	margin: 0;
 	font-size: 12px;
 }
 
-body.adminimal-theme .autocomplete-deluxe-highlight-char {
+body.tsflea_admin .autocomplete-deluxe-highlight-char {
   color: #000;
   font-weight: normal;
   text-decoration: underline;
   font-size: 12px;
 }
 
-body.adminimal-theme .ui-autocomplete .ui-menu-item a.ui-state-focus:hover,
-body.adminimal-theme .ui-autocomplete .ui-menu-item a.ui-state-hover {
+body.tsflea_admin .ui-autocomplete .ui-menu-item a.ui-state-focus:hover,
+body.tsflea_admin .ui-autocomplete .ui-menu-item a.ui-state-hover {
   background-color: #0074BD;
   color: #fff;
   cursor: pointer;
@@ -1471,13 +1472,13 @@ body.adminimal-theme .ui-autocomplete .ui-menu-item a.ui-state-hover {
   margin: 0;
 }
 
-body.adminimal-theme a.ui-state-focus:hover .autocomplete-deluxe-highlight-char,
-body.adminimal-theme .ui-autocomplete .ui-menu-item a.ui-state-hover .autocomplete-deluxe-highlight-char {
+body.tsflea_admin a.ui-state-focus:hover .autocomplete-deluxe-highlight-char,
+body.tsflea_admin .ui-autocomplete .ui-menu-item a.ui-state-hover .autocomplete-deluxe-highlight-char {
   color: #caf631;
   font-size: 12px;
 }
 
-body.adminimal-theme .ctools-dropbutton-processed {
+body.tsflea_admin .ctools-dropbutton-processed {
   border-radius: 0;
   background: #FFFFFF;
 }
@@ -1539,13 +1540,13 @@ body div.status a {
   margin-top: 40px;
 }
 
-body.adminimal-theme .views-ui-display-tab-bucket h3 {
+body.tsflea_admin .views-ui-display-tab-bucket h3 {
   font-size: 20px;
   margin: 10px;
   padding: 6px 6px 10px;
   border-left: 5px solid #DDD;
 }
-body.adminimal-theme .views-ui-display-tab-bucket:hover h3 {
+body.tsflea_admin .views-ui-display-tab-bucket:hover h3 {
   border-color: #0074BD;
 }
 
@@ -1562,16 +1563,16 @@ div.admin-panel {
 }
 
 /* Table hover style */
-.adminimal-theme tr.even:hover, .adminimal-theme tr.odd:hover {
+.tsflea_admin tr.even:hover, .tsflea_admin tr.odd:hover {
   background: #FFFFBF;
 }
 
 /* Tokens */
-.adminimal-theme .token-tree {
+.tsflea_admin .token-tree {
   margin-left: 0;
 }
 
-.adminimal-theme table.token-tree span.expander {
+.tsflea_admin table.token-tree span.expander {
   margin-left: -5px;
 }
 
@@ -1584,7 +1585,7 @@ ul.links.inline li.delete {
   text-transform: capitalize;
 }
 
-body.adminimal-theme .views-display-column > .ctools-collapsible-handle {
+body.tsflea_admin .views-display-column > .ctools-collapsible-handle {
   border-color: #F3F3F3;
   border-style: solid;
   border-width: 1px 1px 0;
@@ -1594,23 +1595,23 @@ body.adminimal-theme .views-display-column > .ctools-collapsible-handle {
   padding: 6px 5px 6px 5px;
 }
 
-body.adminimal-theme .views-display-column > .ctools-toggle {
+body.tsflea_admin .views-display-column > .ctools-toggle {
   margin-left: 10px;
   margin-right: 6px;
   margin-top: 14px;
 }
 
-body.adminimal-theme .views-display-column > .ctools-toggle.ctools-toggle-collapsed {
+body.tsflea_admin .views-display-column > .ctools-toggle.ctools-toggle-collapsed {
   margin-left: 12px;
   margin-right: 6px;
   margin-top: 11px;
 }
 
-body.adminimal-theme .views-ui-display-tab-bucket .ctools-button-processed {
+body.tsflea_admin .views-ui-display-tab-bucket .ctools-button-processed {
   border-radius: 0;
 }
 
-body.adminimal-theme .views-admin .icon {
+body.tsflea_admin .views-admin .icon {
   height: 16px;
   margin-left: -6px;
   width: 16px;
@@ -1622,7 +1623,7 @@ body.adminimal-theme .views-admin .icon {
   margin-left: 0;
 }
 
-body.adminimal-theme .token-tree th {
+body.tsflea_admin .token-tree th {
   padding-bottom: 10px;
   padding-top: 10px;
 }
@@ -2012,21 +2013,21 @@ div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.media-wrapper {
   color: #111;
 }
 
-body.adminimal-theme .progress .bar {
+body.tsflea_admin .progress .bar {
   background: none repeat scroll 0 0 #CCCCCC;
   border: none;
   border-radius: 0;
   margin: 0 0 0.5em 0;
 }
 
-body.adminimal-theme .progress .percentage {
+body.tsflea_admin .progress .percentage {
   float: right;
   font-size: 26px;
   font-weight: 100;
   line-height: 30px;
 }
 
-body.adminimal-theme .progress .filled {
+body.tsflea_admin .progress .filled {
   -webkit-transition: 0.5s linear;
   -moz-transition: 0.5s linear;
   -o-transition: 0.5s linear;
@@ -2037,8 +2038,8 @@ body.adminimal-theme .progress .filled {
   transition-property: width, background-color;
 }
 
-body.adminimal-theme .progress .filled,
-body.adminimal-theme .progress .bar .filled {
+body.tsflea_admin .progress .filled,
+body.tsflea_admin .progress .bar .filled {
   background: none repeat scroll 0 0 #0074BD !important;
 }
 
@@ -2092,7 +2093,7 @@ div.krumo-wrapper li {
     position: relative;
 }
 
-body.adminimal-theme div.dev-query {
+body.tsflea_admin div.dev-query {
     background: none repeat scroll 0 0 #000000;
     bottom: 0;
     color: #82eb12;
@@ -2104,13 +2105,13 @@ body.adminimal-theme div.dev-query {
 
 /* Ckeditor Styling */
 
-body.adminimal-theme .cke_reset_all,body.adminimal-theme  .cke_reset_all * {
+body.tsflea_admin .cke_reset_all,body.tsflea_admin  .cke_reset_all * {
   border-radius: 0;
   font-family: "Open Sans", "Segoe UI", "Helvetica", sans-serif;
   text-shadow: none;
 }
 
-body.adminimal-theme .ckeditor_links {
+body.tsflea_admin .ckeditor_links {
   border-left: 1px solid #DDDDDD;
   border-right: 1px solid #DDDDDD;
   display: block;
@@ -2118,36 +2119,36 @@ body.adminimal-theme .ckeditor_links {
   width: auto;
 }
 
-body.adminimal-theme .ckeditor_links:hover {
+body.tsflea_admin .ckeditor_links:hover {
   background: #eee;
   text-decoration: none;
 }
 
-body.adminimal-theme .cke_chrome {
+body.tsflea_admin .cke_chrome {
   box-shadow: none;
 }
 
-body.adminimal-theme .cke_top {
+body.tsflea_admin .cke_top {
   background: #eee;
 }
 
-body.adminimal-theme .cke_toolgroup {
+body.tsflea_admin .cke_toolgroup {
   background: #fff;
   border: 1px solid #ccc;
 }
 
 
-body.adminimal-theme .cke_combo_button {
+body.tsflea_admin .cke_combo_button {
   background: #fff;
   border: 1px solid #ccc;
 }
 
-body.adminimal-theme .cke_combo_off a.cke_combo_button:hover {
+body.tsflea_admin .cke_combo_off a.cke_combo_button:hover {
   background: #fff;
   border: 1px solid #0074BD;
 }
 
-body.adminimal-theme .cke_button_on {
+body.tsflea_admin .cke_button_on {
   background: #fff;
   box-shadow: 0px 3px 0px #0074BD;
   -moz-border-radius: 0;
@@ -2155,36 +2156,36 @@ body.adminimal-theme .cke_button_on {
   border-radius: 0;
 }
 
-body.adminimal-theme .cke_button_on:hover {
+body.tsflea_admin .cke_button_on:hover {
   box-shadow: 0px 3px 0px #0074BD;
 }
 
-body.adminimal-theme .cke_bottom {
+body.tsflea_admin .cke_bottom {
   background: #eee;
 }
 
-body.adminimal-theme .cke_combo_off a.cke_combo_button:active,body.adminimal-theme  .cke_combo_on a.cke_combo_button {
+body.tsflea_admin .cke_combo_off a.cke_combo_button:active,body.tsflea_admin  .cke_combo_on a.cke_combo_button {
   border: 1px solid #0074BD;
   border-bottom-width: 3px;
   background: #fff;
   box-shadow: none;
 }
 
-body.adminimal-theme a.cke_button_on:hover,
-body.adminimal-theme a.cke_button_on:focus,
-body.adminimal-theme a.cke_button_on:active,
-body.adminimal-theme .cke_button:first-child,
-body.adminimal-theme .cke_button:last-child {
+body.tsflea_admin a.cke_button_on:hover,
+body.tsflea_admin a.cke_button_on:focus,
+body.tsflea_admin a.cke_button_on:active,
+body.tsflea_admin .cke_button:first-child,
+body.tsflea_admin .cke_button:last-child {
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   border-radius: 0;
 }
 
-body.adminimal-theme a.cke_button_off:hover,
-body.adminimal-theme a.cke_button_off:focus, a.cke_button_off:active,
-body.adminimal-theme a.cke_button_disabled:hover,
-body.adminimal-theme a.cke_button_disabled:focus,
-body.adminimal-theme a.cke_button_disabled:active {
+body.tsflea_admin a.cke_button_off:hover,
+body.tsflea_admin a.cke_button_off:focus, a.cke_button_off:active,
+body.tsflea_admin a.cke_button_disabled:hover,
+body.tsflea_admin a.cke_button_disabled:focus,
+body.tsflea_admin a.cke_button_disabled:active {
   background: #eee;
   box-shadow: none;
   border-color: #0074BD;
@@ -2193,64 +2194,64 @@ body.adminimal-theme a.cke_button_disabled:active {
   border-radius: 0;
 }
 
-body.adminimal-theme .cke_reset_all label {
+body.tsflea_admin .cke_reset_all label {
   display: inline-block;
   margin-top: 5px;
   padding-bottom: 2px;
   position: relative;
 }
 
-body.adminimal-theme .cke_dialog_body label.cke_required {
+body.tsflea_admin .cke_dialog_body label.cke_required {
   font-weight: normal;
 }
 
-body.adminimal-theme .cke_reset_all .cke_dialog_body {
+body.tsflea_admin .cke_reset_all .cke_dialog_body {
   font-family: "Open Sans", "Segoe UI", "Helvetica", sans-serif;
   border: 1px solid #CCCCCC;
 }
 
-body.adminimal-theme .cke_reset_all fieldset {
+body.tsflea_admin .cke_reset_all fieldset {
   border: 1px solid #DDDDDD;
   border-top: 3px solid #0074BD;
   padding: 10px;
 }
 
-body.adminimal-theme .cke_reset_all legend {
+body.tsflea_admin .cke_reset_all legend {
   font-family: "Open Sans", "Segoe UI", "Helvetica", sans-serif;
   font-size: 18px;
   font-weight: 100;
   padding: 0 0.5em;
 }
 
-body.adminimal-theme .cke_combopanel {
+body.tsflea_admin .cke_combopanel {
   height: 170px;
   width: 170px;
   border: 1px solid #DDDDDD;
   margin-top: 3px;
 }
 
-body.adminimal-theme .cke_dialog_footer {
+body.tsflea_admin .cke_dialog_footer {
   background: #eee;
 }
 
-body.adminimal-theme a.cke_dialog_tab:hover {
+body.tsflea_admin a.cke_dialog_tab:hover {
   text-decoration: none;
   background: #fff;
   color: #0074BD;
 }
 
-body.adminimal-theme select.cke_dialog_ui_input_select {
+body.tsflea_admin select.cke_dialog_ui_input_select {
   box-shadow: none;
 }
 
-body.adminimal-theme input.cke_dialog_ui_input_text,
-body.adminimal-theme input.cke_dialog_ui_input_password,
-body.adminimal-theme textarea.cke_dialog_ui_input_textarea {
+body.tsflea_admin input.cke_dialog_ui_input_text,
+body.tsflea_admin input.cke_dialog_ui_input_password,
+body.tsflea_admin textarea.cke_dialog_ui_input_textarea {
   box-shadow: none;
   border-color: #CCCCCC;
 }
 
-body.adminimal-theme .cke_dialog_title {
+body.tsflea_admin .cke_dialog_title {
   background: #333333;
   border-bottom: none;
   border-radius: 0;
@@ -2260,20 +2261,20 @@ body.adminimal-theme .cke_dialog_title {
   text-shadow: none;
 }
 
-body.adminimal-theme .cke_dialog_ui_vbox_child label {
+body.tsflea_admin .cke_dialog_ui_vbox_child label {
   top: -2px;
 }
 
-body.adminimal-theme input.cke_dialog_ui_input_text:focus,
-body.adminimal-theme input.cke_dialog_ui_input_password:focus,
-body.adminimal-theme textarea.cke_dialog_ui_input_textarea:focus,
-body.adminimal-theme select.cke_dialog_ui_input_select:focus {
+body.tsflea_admin input.cke_dialog_ui_input_text:focus,
+body.tsflea_admin input.cke_dialog_ui_input_password:focus,
+body.tsflea_admin textarea.cke_dialog_ui_input_textarea:focus,
+body.tsflea_admin select.cke_dialog_ui_input_select:focus {
   border-color: #0074BD;
 }
 
-body.adminimal-theme a.cke_dialog_ui_button:focus,
-body.adminimal-theme a.cke_dialog_ui_button:hover,
-body.adminimal-theme a.cke_dialog_ui_button:active {
+body.tsflea_admin a.cke_dialog_ui_button:focus,
+body.tsflea_admin a.cke_dialog_ui_button:hover,
+body.tsflea_admin a.cke_dialog_ui_button:active {
   border-color: #0074BD;
   box-shadow: none;
   text-decoration: none;
@@ -2281,40 +2282,40 @@ body.adminimal-theme a.cke_dialog_ui_button:active {
   background: #0074BD;
 }
 
-body.adminimal-theme a.cke_dialog_ui_button {
+body.tsflea_admin a.cke_dialog_ui_button {
   background: #eee;
   padding: 4px 0;
 }
 
-body.adminimal-theme a.cke_dialog_ui_button:focus span,
-body.adminimal-theme a.cke_dialog_ui_button:hover span,
-body.adminimal-theme a.cke_dialog_ui_button:active span {
+body.tsflea_admin a.cke_dialog_ui_button:focus span,
+body.tsflea_admin a.cke_dialog_ui_button:hover span,
+body.tsflea_admin a.cke_dialog_ui_button:active span {
   color: #fff;
 }
 
-body.adminimal-theme .cke_ltr .cke_dialog_close_button {
+body.tsflea_admin .cke_ltr .cke_dialog_close_button {
   background: url("images/x-white.png") scroll no-repeat 50% 2px #B73939;
   right: 10px;
   top: 1px;
   width: 45px;
 }
 
-body.adminimal-theme .cke_ltr .cke_dialog_close_button:hover {
+body.tsflea_admin .cke_ltr .cke_dialog_close_button:hover {
   background-color: #e55454;
 }
 
-body.adminimal-theme a.cke_dialog_ui_button_ok {
+body.tsflea_admin a.cke_dialog_ui_button_ok {
   background: #4D8F46;
   border-color: #4D8F46;
   box-shadow: none;
 }
 
-body.adminimal-theme a.cke_dialog_ui_button_ok:hover {
+body.tsflea_admin a.cke_dialog_ui_button_ok:hover {
   background: #0A6700;
   border-color: #0A6700;
 }
 
-body.adminimal-theme a.cke_path_item:hover, body.adminimal-theme a.cke_path_item:focus, body.adminimal-theme a.cke_path_item:active {
+body.tsflea_admin a.cke_path_item:hover, body.tsflea_admin a.cke_path_item:focus, body.tsflea_admin a.cke_path_item:active {
   border-radius: 0;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
@@ -2331,100 +2332,100 @@ body.adminimal-theme a.cke_path_item:hover, body.adminimal-theme a.cke_path_item
   padding: 10px 15px;
 }
 
-body.adminimal-theme ul.rules-operations a, .rules-elements-add ul.action-links a {
+body.tsflea_admin ul.rules-operations a, .rules-elements-add ul.action-links a {
   font-size: inherit;
 }
 
-body.adminimal-theme .rules-autocomplete-button {
+body.tsflea_admin .rules-autocomplete-button {
   height: 27px;
   top: -2px;
 }
 
-body.adminimal-theme ul.rules-autocomplete .rules-dsac-group {
+body.tsflea_admin ul.rules-autocomplete .rules-dsac-group {
   background-color: transparent;
 }
 
-body.adminimal-theme #media-browser-page #branding {
+body.tsflea_admin #media-browser-page #branding {
   background: #ddd;
   margin: 0;
   padding: 0;
 }
 
-body.adminimal-theme #media-tabs-wrapper {
+body.tsflea_admin #media-tabs-wrapper {
   float: left;
 }
 
-body.adminimal-theme .exposed-filters .form-select {
+body.tsflea_admin .exposed-filters .form-select {
   margin: 0.5em;
 }
 
-body.adminimal-theme .exposed-filters .container-inline .form-actions, .exposed-filters .container-inline.form-actions {
+body.tsflea_admin .exposed-filters .container-inline .form-actions, .exposed-filters .container-inline.form-actions {
   margin: 0.5em 0;
 }
 
-body.adminimal-theme .views-ui-dialog .ui-dialog-titlebar-close span {
+body.tsflea_admin .views-ui-dialog .ui-dialog-titlebar-close span {
   display: block;
   left: 0;
   top: 0;
 }
 
-body.adminimal-theme .views-ui-dialog #edit-options .collapsible {
+body.tsflea_admin .views-ui-dialog #edit-options .collapsible {
   float: inherit;
   width: auto;
 }
 
-body.adminimal-theme div.views-display-settings #edit-display-settings-title {
+body.tsflea_admin div.views-display-settings #edit-display-settings-title {
   font-size: 26px;
   line-height: 1.5;
   margin: 0px;
 }
 
-body.adminimal-theme div#edit-display-settings .ctools-toggle {
+body.tsflea_admin div#edit-display-settings .ctools-toggle {
 	margin-right: 6px;
 	margin-top: 18px;
 }
 
-body.adminimal-theme div#edit-display-settings .ctools-toggle.ctools-toggle-collapsed {
+body.tsflea_admin div#edit-display-settings .ctools-toggle.ctools-toggle-collapsed {
   margin-top: 14px;
 }
 
-body.adminimal-theme .ctools-twisty {
+body.tsflea_admin .ctools-twisty {
 	top: 1em;
 }
 
-body.adminimal-theme .views-admin h1.unit-title {
+body.tsflea_admin .views-admin h1.unit-title {
   margin-bottom: 4px;
 }
 
-body.adminimal-theme .views-edit-view .views-display-top {
+body.tsflea_admin .views-edit-view .views-display-top {
   padding: 0px;
 }
 
-body.adminimal-theme ul#views-display-menu-tabs {
+body.tsflea_admin ul#views-display-menu-tabs {
   width: auto;
   margin-right: 18em;
 }
 
-body.adminimal-theme .views-display-top ul#views-display-menu-tabs li {
+body.tsflea_admin .views-display-top ul#views-display-menu-tabs li {
   margin: 0px;
 }
 
-body.adminimal-theme .views-display-top ul#views-display-menu-tabs li a {
+body.tsflea_admin .views-display-top ul#views-display-menu-tabs li a {
   padding: 12px 10px;
   font-size: 14px;
   border: none;
 }
 
-body.adminimal-theme .views-displays .secondary a:hover > .icon.add,
-body.adminimal-theme .views-displays .secondary a:focus > .icon.add  {
+body.tsflea_admin .views-displays .secondary a:hover > .icon.add,
+body.tsflea_admin .views-displays .secondary a:focus > .icon.add  {
   background-position: center -23px;
 }
 
-body.adminimal-theme .views-displays .secondary a > .icon.add {
+body.tsflea_admin .views-displays .secondary a > .icon.add {
   background-position: center 5px;
 }
 
-body.adminimal-theme #views-display-top #views-display-menu-tabs li.add .action-list {
+body.tsflea_admin #views-display-top #views-display-menu-tabs li.add .action-list {
   top: 42px;
   text-align: left;
   width: auto;
@@ -2433,53 +2434,53 @@ body.adminimal-theme #views-display-top #views-display-menu-tabs li.add .action-
   box-shadow: 0 3px 5px rgba(0,0,0,0.1);
 }
 
-body.adminimal-theme .views-displays .secondary .action-list li {
+body.tsflea_admin .views-displays .secondary .action-list li {
   border: none;
   clear: both;
 }
 
-body.adminimal-theme .views-displays .secondary .action-list li.last  {
+body.tsflea_admin .views-displays .secondary .action-list li.last  {
   padding-bottom: 5px;
 }
 
-body.adminimal-theme .views-display-top ul#views-display-menu-tabs li a.active {
+body.tsflea_admin .views-display-top ul#views-display-menu-tabs li a.active {
   box-shadow: 0px 1px 0px #0073BC;
   color: #0073BC;
 }
 
-body.adminimal-theme .views-display-top ul#views-display-menu-tabs li a:hover,
-body.adminimal-theme .views-display-top ul#views-display-menu-tabs li a:focus {
+body.tsflea_admin .views-display-top ul#views-display-menu-tabs li a:hover,
+body.tsflea_admin .views-display-top ul#views-display-menu-tabs li a:focus {
 	color: #FFF;
 	background-color: #0074BD;
 	box-shadow: 0px -1px 0px #0074BD, 0px 1px 0px #0074BD;
 	text-decoration: none;
 }
 
-body.adminimal-theme .views-admin a:hover {
+body.tsflea_admin .views-admin a:hover {
   text-decoration: underline;
 }
 
-body.adminimal-theme .views-displays .secondary .action-list li {
+body.tsflea_admin .views-displays .secondary .action-list li {
   background-color: #fff;
 }
 
-body.adminimal-theme .views-displays .secondary .action-list li:hover {
+body.tsflea_admin .views-displays .secondary .action-list li:hover {
   background-color: #fff;
 }
 
-body.adminimal-theme .views-displays .secondary .action-list li input {
+body.tsflea_admin .views-displays .secondary .action-list li input {
   color: #0074BD;
 }
 
-body.adminimal-theme .views-displays .secondary .action-list li input:hover {
+body.tsflea_admin .views-displays .secondary .action-list li input:hover {
   text-decoration: underline;
 }
 
-body.adminimal-theme #edit-module-filter-name::-ms-clear {
+body.tsflea_admin #edit-module-filter-name::-ms-clear {
   display: none;
 }
 
-body.adminimal-theme .chosen-container-single .chosen-single {
+body.tsflea_admin .chosen-container-single .chosen-single {
   border-radius: 0;
   background: #fff;
   box-shadow: none;
@@ -2487,58 +2488,58 @@ body.adminimal-theme .chosen-container-single .chosen-single {
   border-color: #ddd;
 }
 
-body.adminimal-theme .chosen-container.chosen-container-active > a {
+body.tsflea_admin .chosen-container.chosen-container-active > a {
   border-color: #0074BD;
 }
 
-body.adminimal-theme .chosen-container.chosen-container-active .chosen-drop,
-body.adminimal-theme .chosen-container-active .chosen-choices {
+body.tsflea_admin .chosen-container.chosen-container-active .chosen-drop,
+body.tsflea_admin .chosen-container-active .chosen-choices {
   border-color: #0074BD;
 }
 
-body.adminimal-theme .chosen-container-single .chosen-single div b {
+body.tsflea_admin .chosen-container-single .chosen-single div b {
   background-position: 0px 4px;
 }
 
-body.adminimal-theme .chosen-container-single .chosen-drop,
-body.adminimal-theme .chosen-container-multi .chosen-drop {
+body.tsflea_admin .chosen-container-single .chosen-drop,
+body.tsflea_admin .chosen-container-multi .chosen-drop {
 	border-radius: 0;
 	box-shadow: none;
 }
 
-body.adminimal-theme .chosen-container-multi .chosen-choices li.search-choice,
-body.adminimal-theme .chosen-container-active.chosen-with-drop .chosen-single,
-body.adminimal-theme .chosen-container-active .chosen-choices {
+body.tsflea_admin .chosen-container-multi .chosen-choices li.search-choice,
+body.tsflea_admin .chosen-container-active.chosen-with-drop .chosen-single,
+body.tsflea_admin .chosen-container-active .chosen-choices {
 	box-shadow: none;
 	border-radius: 0;
 }
-body.adminimal-theme .chosen-container-multi .chosen-choices {
+body.tsflea_admin .chosen-container-multi .chosen-choices {
   background: #fff;
 }
-body.adminimal-theme .chosen-container-multi .chosen-choices li.search-choice {
+body.tsflea_admin .chosen-container-multi .chosen-choices li.search-choice {
   background: #e3e3e3;
   border-color: #e3e3e3;
 }
-body.adminimal-theme .chosen-container .chosen-results li.highlighted {
+body.tsflea_admin .chosen-container .chosen-results li.highlighted {
   background: #0074BD;
 }
 
-body.adminimal-theme .chosen-container .chosen-results li.group-result {
+body.tsflea_admin .chosen-container .chosen-results li.group-result {
 	background: #eaeaea;
 }
 
-body.adminimal-theme input#edit-module-filter-name {
+body.tsflea_admin input#edit-module-filter-name {
   outline: none;
   -webkit-outline: none;
 }
 
-body.adminimal-theme .custom_css_found .css_path {
+body.tsflea_admin .custom_css_found .css_path {
   padding: 2px 6px;
   color: #61A643;
   font-weight: 600;
 }
 
-body.adminimal-theme .custom_css_not_found .css_path {
+body.tsflea_admin .custom_css_not_found .css_path {
   color: #000;
   padding: 2px 6px;
   font-weight: 600;
@@ -2606,12 +2607,12 @@ body.page-admin-structure-views-view #views-ui-edit-display-form #edit-options #
   float: left;
 }
 
-body.adminimal-theme #module-filter-update-status-form {
+body.tsflea_admin #module-filter-update-status-form {
   float: none;
   text-align: center;
 }
 
-body.adminimal-theme #module-filter-update-status-form #edit-module-filter-show {
+body.tsflea_admin #module-filter-update-status-form #edit-module-filter-show {
   padding: 10px;
 }
 
@@ -2621,30 +2622,30 @@ body.page-admin-structure-views-view #content-wrapper {
 }
 
 /* Fix Module Filter form float... see #2444477 */
-body.adminimal-theme #module-filter-update-status-form {
+body.tsflea_admin #module-filter-update-status-form {
   float: none;
   padding-bottom: 1em;
   clear: both;
 }
 
-body.adminimal-theme #module-filter-update-status-form #edit-module-filter-show {
+body.tsflea_admin #module-filter-update-status-form #edit-module-filter-show {
   margin-top: 5px;
 }
 
-body.adminimal-theme #module-filter-update-status-form .module-filter-inputs-wrapper {
+body.tsflea_admin #module-filter-update-status-form .module-filter-inputs-wrapper {
   display: block;
   text-align: center;
 }
 
-body.adminimal-theme.page-admin-reports-updates .update.checked  {
+body.tsflea_admin.page-admin-reports-updates .update.checked  {
   text-align: center;
   margin-top: -10px;
   color: #9B9B9B;
 }
 
-.adminimal-theme .update tr.error,
-.adminimal-theme .update tr.error.even:hover,
-.adminimal-theme .update tr.error.odd:hover {
+.tsflea_admin .update tr.error,
+.tsflea_admin .update tr.error.even:hover,
+.tsflea_admin .update tr.error.odd:hover {
   background: #FFFFFF !important;
   color: #000;
   border: 1px solid #B73939;
@@ -2653,43 +2654,43 @@ body.adminimal-theme.page-admin-reports-updates .update.checked  {
   margin-bottom: 5px;
 }
 
-.adminimal-theme .update tr.error .update table.version-security .version-title {
+.tsflea_admin .update tr.error .update table.version-security .version-title {
   color: #B73939;
 }
 
-.adminimal-theme .table.update tr.error td,
-.adminimal-theme table.update tr.error th {
+.tsflea_admin .table.update tr.error td,
+.tsflea_admin table.update tr.error th {
   color: #B73939;
 }
 
-.adminimal-theme .update tr.error .version-recommended,
-.adminimal-theme .update .version-recommended {
+.tsflea_admin .update tr.error .version-recommended,
+.tsflea_admin .update .version-recommended {
   background: #EDEDED;
 }
 
-.adminimal-theme .update table.version-security .version-title {
+.tsflea_admin .update table.version-security .version-title {
   color: #B73939;
 }
 
-.adminimal-theme table.update {
+.tsflea_admin table.update {
   margin-top: 0;
 }
 
-.adminimal-theme table.update tr.error td,
-.adminimal-theme table.update tr.error th {
+.tsflea_admin table.update tr.error td,
+.tsflea_admin table.update tr.error th {
   color: #B73939;
 }
 
-.adminimal-theme .update .security-error {
+.tsflea_admin .update .security-error {
   color: #B73939;
   font-size: 18px;
 }
 
-.adminimal-theme .update tr td {
+.tsflea_admin .update tr td {
   border: none;
 }
 
-.adminimal-theme.page-admin-reports-updates .content h3 {
+.tsflea_admin.page-admin-reports-updates .content h3 {
   font-size: 25px;
   margin: 40px 0 0 0;
   background: #0074BD;
@@ -2697,7 +2698,7 @@ body.adminimal-theme.page-admin-reports-updates .update.checked  {
   color: #fff;
 }
 
-.adminimal-theme.page-admin-reports-updates .update tr.warning {
+.tsflea_admin.page-admin-reports-updates .update tr.warning {
   background: #FFF;
   border: 1px solid #FF7C43;
   border-left-width: 5px;
@@ -2705,16 +2706,16 @@ body.adminimal-theme.page-admin-reports-updates .update.checked  {
   margin-bottom: 5px;
 }
 
-.adminimal-theme.page-admin-reports-updates .update tr.ok {
+.tsflea_admin.page-admin-reports-updates .update tr.ok {
   background: #FFF;
   opacity: .75;
 }
 
-.adminimal-theme .update tr.warning .version-recommended {
+.tsflea_admin .update tr.warning .version-recommended {
   background: #EDEDED;
 }
 
-html body.adminimal-theme.page-admin-reports-updates .overflow-fix {
+html body.tsflea_admin.page-admin-reports-updates .overflow-fix {
   overflow: initial !important;
 }
 
@@ -2728,7 +2729,7 @@ html body.adminimal-theme.page-admin-reports-updates .overflow-fix {
 .views-ui-dialog .scroll {
   border: 1px solid #DDD;
 }
-body.adminimal-theme .views-ui-display-tab-bucket h3 {
+body.tsflea_admin .views-ui-display-tab-bucket h3 {
   border-left: none;
 }
 .views-ui-dialog {
@@ -2751,7 +2752,7 @@ body.adminimal-theme .views-ui-display-tab-bucket h3 {
   background-color: #fff;
   border-bottom: none;
 }
-body.adminimal-theme .views-admin h1.unit-title {
+body.tsflea_admin .views-admin h1.unit-title {
   margin-bottom: 20px;
 }
 #edit-display-settings-top {
@@ -2761,32 +2762,32 @@ body.adminimal-theme .views-admin h1.unit-title {
   color: #BBB;
 }
 /* Adminimal */
-.adminimal-theme table th.active img {
+.tsflea_admin table th.active img {
   opacity: 0.2;
 }
-.adminimal-theme table th {
+.tsflea_admin table th {
   background: none repeat scroll 0 0 #F2F2F2;
 }
-.adminimal-theme fieldset {
+.tsflea_admin fieldset {
   border: solid 1px #DDD;
 }
-.adminimal-theme tr.even, .adminimal-theme tr.odd {
+.tsflea_admin tr.even, .tsflea_admin tr.odd {
   background: #F9F9F9;
 }
-.adminimal-theme tr.odd {
+.tsflea_admin tr.odd {
   background: #FFF;
 }
-.adminimal-theme table th.active {
+.tsflea_admin table th.active {
   background: #F2F2F2;
 }
-.adminimal-theme table th.active a {
+.tsflea_admin table th.active a {
   color: #0074BD;
 }
-.adminimal-theme dl dd, .adminimal-theme dl dl {
+.tsflea_admin dl dd, .tsflea_admin dl dl {
   background: none;
   margin-bottom: 20px;
 }
-.adminimal-theme ul.secondary {
+.tsflea_admin ul.secondary {
   padding: 10px;
 }
 #branding div.breadcrumb {
